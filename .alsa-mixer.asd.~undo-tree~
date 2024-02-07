@@ -1,0 +1,10 @@
+(undo-tree-save-format-version . 1)
+"2425f16ee72f8e22b04433445e20b709ed3e5220"
+[nil nil nil nil (26051 52876 742673 929000) 0 nil]
+([nil nil ((204 . 207) (t 26051 52323 410640 257000)) nil (26051 52876 742673 49000) 0 nil])
+([nil nil ((207 . 214)) nil (26051 52876 742672 289000) 0 nil])
+([nil nil ((207 . 218) (#(":depend" 0 7 (face font-lock-builtin-face fontified t)) . -207) (undo-tree-id0 . -7) 214) nil (26051 52876 742670 809000) 0 nil])
+([nil nil ((218 . 219)) nil (26051 52876 742653 938000) 0 nil])
+([nil nil ((220 . 222) (219 . 221)) nil (26051 52876 742652 968000) 0 nil])
+([nil current ((222 . 229)) nil (26051 52876 742649 678000) 0 nil])
+nil

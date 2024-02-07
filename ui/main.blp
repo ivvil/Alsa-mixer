@@ -1,0 +1,35 @@
+using Gtk 4.0;
+using Adw 1;
+
+template $AlsaMixerWindow : Adw.ApplicationWindow {
+  title: "Alsa Mixer";
+
+  Adw.Breakpoint {}
+
+  content: Adw.ToolbarView window_content {
+
+	content: Box {
+	  orientation: vertical;
+
+	  Adw.HeaderBar header_bar {
+		title-widget: Adw.ViewSwitcher switcher_title {
+		  stack: stack;
+		  policy: wide;
+		};
+	  }
+
+	  Adw.ViewStack stack {
+		vexpand: true;
+
+		Adw.ViewStackPage page1 {
+		  name: "Inputs";
+		  title: _("Audio inputs");
+		  icon-name: "microphone2-symbolic";
+		  use-underline: true;
+
+		  child: 
+		}
+	  }
+	}; 
+  };
+}
